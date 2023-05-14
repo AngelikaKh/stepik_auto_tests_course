@@ -27,4 +27,10 @@ class TestMainPage1:
         browser.find_element(By.CSS_SELECTOR, ".basket-mini .btn-group > a")
 
 # pytest -s -v -m smoke tests/test_fixture8.py
-# pytest -s -v -m smoke tests/test_fixture8.py -q --tb=no -p no:warnings
+# pytest -s -v -m smoke tests/test_fixture8.py -q --tb=no -p no:warnings ⚠️XXX
+
+# pytest -s -v -m "not smoke" test_fixture8.py ☯️
+# pytest -s -v -m "smoke or regression" test_fixture8.py 🤲🏻
+# pytest -s -v -m "smoke and win10" test_fixture81.py ➕
+
+

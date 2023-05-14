@@ -1,0 +1,18 @@
+1683310131063	geckodriver	INFO	Listening on 127.0.0.1:60244
+1683310131274	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9d/tdlm57f514v3_3gyw6_34tym0000gn/T/rust_mozprofilejUaDXu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683310132556	Marionette	INFO	Marionette enabled
+1683310132827	Marionette	INFO	Listening on port 60260
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 60260
+WebDriver BiDi listening on ws://127.0.0.1:60245
+1683310133343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9d/tdlm57f514v3_3gyw6_34tym0000gn/T/rust_mozprofilejUaDXu/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60245/devtools/browser/c044b779-c7c3-4208-8541-106c12bad54f
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1683044734, line 6289: unreachable code after return statement
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1683044734, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+2023-05-05 22:11:05.782 firefox-bin[30685:1270455] TSM AdjustCapsLockLEDForKeyTransitionHandling - _ISSetPhysicalKeyboardCapsLockLED Inhibit
+1683310265922	Marionette	INFO	Stopped listening on port 60260
