@@ -5,9 +5,9 @@ from selenium.webdriver.chrome.options import Options
 
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default="Chrome",
-                     help="Выберите браузер: Chrome или Firefox")
+                     help="Choose browser: Chrome or Firefox")
     parser.addoption('--language', action='store', default="en",
-                     help="Выберите язык: ru, en or fr")
+                     help="Choose language: ru, en or fr")
 
 
 @pytest.fixture(scope="function")
